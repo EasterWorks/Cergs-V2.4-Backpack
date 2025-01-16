@@ -31,38 +31,42 @@ I then installed the internal panel standoffs, glued in 10mm magnets, and epoxie
 
 ![image](https://github.com/user-attachments/assets/e4172e2e-670c-4fac-aa60-c7db253dd850)
 
-Once the umbilical clips were printed, 6x2mm magnets would also be glued to the front of the clear acrylic panel to help control any undesirable movement of the umbilicals while the backpack is "closed" (more TBD)
+Once the umbilical clips were printed, 6x2mm magnets would also be glued to the front of the clear acrylic panel to help control any undesirable movement of the umbilicals while the backpack is "closed". These magnets are fairly weak, so when the backpack is opened, they pop off pretty easily - but will likely need manual assist to put back in their correct spot.
 
-The original rear panel of the Voron would work for the rear panel of the backpack after trimming 22mm of material from the bottom (more TBD). This was attached using a total of 8 typical Voron panel clips to give good rigidity around the entire perimeter. (TBD)
+The original rear panel of the Voron would work for the rear panel of the backpack after trimming 22mm of material from the bottom. Well, that was the thought anyway, until the original back panel exploded in my hands and I had to buy a new one! This was attached using a total of 8 typical Voron panel clips to give good rigidity around the entire perimeter. 
 
-(Pic of back panel installed - TBD)
+![image](https://github.com/user-attachments/assets/ae6d57fc-a14b-4ba5-b588-de25638a3365)
+
+I also started moving over the cabling at this point.
 
 
 # 3: Electronics Migration
 
-(this part is TBD - WIP outline)
+For migrating the electronics, I needed to get the Birds' Nest moved off of the back panel and into the enclosure. I designed a mounting plate that could screw on to the standard Voron DIN rail clips and put that in place.
 
-- Print a DIN rail mounting solution for the Isiks Tech Birds' Nest.
-- Photograph electronics bay for future reference.
-- Where the source is not obvious, label any connectors.
-- Remove BTT Octopus Pro, Raspberry Pi 3B+, and all other non-PSU electronics from the bay.
-- Install DIN rails in the backpack and transfer above electronics over to it.
-- Measure needed extension length and put them together. Thread through nylon sheathing from underskirt bay to backpack.
-- Create endpoints for 5V and 24V power lines using Wago lever nuts and label.
-- Install cable raceways and route all cabling.
-- Remove display unit from original skirt.
-- Install skirt macro panel and keys to original skirt.
-- Power-on test and ensuring all fans, heaters, lights, and endstops are functional
+Then I took many, MANY pictures of my existing electronics bay as it stood in case any cables weren't labelled to prevent confusion on cabling. This came in handy a few times, though most of the wire loom was already labelled (LDO kit is amazing).
+
+![image](https://github.com/user-attachments/assets/597ca5f1-e66c-4638-b262-3b49772c134b)
+
+I then removed all of the electronics, installed the DIN rails in the new backpack space, and verified cable lengths were good. All said and done, all I really needed to do was just to run a line from the 24v PSU to the Wago terminals I had planned to use for power distribution, and then I needed to add about 4" to the X/Y endstop daughterboard cable.
+
+![image](https://github.com/user-attachments/assets/633384a7-1cc9-4c33-95cf-68ec3103d442)
+
+As you can see here, I have two rows of WAGO 5x lever nuts for power distribution. On the "bottom" of the backpack, I have two rows of 10 for the 24v power lane, and then on the "top" is the 5v power lane. Since I can always just jump out the last terminal in each lever nut to another lever nut, these are as expandable as space allows for.
+
+As you may understand from the above, I left the 24v PSU and the DIN clip assortment in the original skirt. Moving all of that to the backpack would have been a massive pain and isn't really necessary when I have power distribution options in the backpack.
 
 
 # 4: Hinges and Locking Mechanism
 
-(this part is TBD - WIP outline)
+I used some commercial 2020 hinges with M4x6mm FHCS that fit my design needs. Critically, both "tops" of the hinge plates needed to rest flat against each other so the entire electronics bay could open up at a 90 degree angle. 
 
-- demonstration of locking mechanism (design is proven, just need to manufacture)
-- connecting hinges
-- optional: adding nylon strapping to prevent overextension of backpack when open (shouldn't need this though)
-- demonstration of "open" and "closed" positions
+I designed the locking mechanisms so each has a spring-loaded shuttle which presses into a hook. My design ended up working fine, but feels a bit flimsy in practice - once the project is "done", I'll be redesigning these.
+
+![image](https://github.com/user-attachments/assets/62c3fb7c-7122-4f6b-82f3-81afdaaecd27)
+
+The spring-loaded shuttle has some decent pretension in order to prevent the shuttles from walking out due to vibrations during normal operation of the printer. The exact closing position can be adjusted by changing how far the hook rests along the backpack's upper frame. When both sides are latched closed, even with the first iteration of the design, it feels VERY secure. 
+
 
 
 # 5: Finishing Touches
@@ -70,12 +74,22 @@ The original rear panel of the Voron would work for the rear panel of the backpa
 (this part is TBD - WIP outline)
 
 - paint black perimeter around clear acrylic panel
+- line backpack with LED strips?
+- CABLE MANAGEMENT 
 - install 3mm foam strip tape to frame of backpack and printer.
 - install SLS nylon PA-12 backplates and shuttle to Stealthchanger.
 - install unified shaft BMG extruder gears to Stealthburner extruders.
 
 
-# 6: Replicating this project
+# 6: Lessons and improvements
+
+(this is TBD - WIP outline)
+
+- should have made the backpack like 30mm more narrow so the bay doesn't have to entirely hang off the edge of the printer's platform to be accessible
+
+
+
+# 7: Replicating this project
 
 (this part is TBD - WIP outline)
 
