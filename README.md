@@ -9,7 +9,7 @@ Project description:
 - Orienting the electronics in such a way that they are visible from inside of the enclosure for aesthetic purposes.
 
 Target:
--Voron V2.4r2 300mm (but can be adapter to the 250mm and 300mm versions easily).
+- Voron V2.4r2 300mm (but can be adapted to the 250mm and 350mm versions easily).
 
 Design constraints:
 - 2020 aluminum extrusion frame.
