@@ -27,5 +27,5 @@ Advantages vs. original electronics bay:
 Disadvantages vs. original electronics bay:
 - Significant extension of most cabling required.
 - Ability to cut 2020 extrusion to a reasonable degree of accuracy required.
-- 3D printer capable of printing somehwat complex multi-part assemblies required.
+- 3D printer capable of printing somewhat complex multi-part assemblies required.
 
