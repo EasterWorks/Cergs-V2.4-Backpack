@@ -31,7 +31,7 @@ I then installed the internal panel standoffs, glued in 10mm magnets, and epoxie
 
 ![image](https://github.com/user-attachments/assets/e4172e2e-670c-4fac-aa60-c7db253dd850)
 
-Once the umbilical clips were printed, 6x2mm magnets would also be glued to the front of the clear acrylic panel to help control any undesirable movement of the umbilicals while the backpack is "closed". These magnets are fairly weak, so when the backpack is opened, they pop off pretty easily - but will likely need manual assist to put back in their correct spot.
+Once the umbilical clips were printed, 6x2mm magnets would also be glued to the front of the clear acrylic panel to help control any undesirable movement of the umbilicals while the backpack is "closed". These magnets are fairly weak, so when the backpack is opened, they pop off pretty easily - but will likely need manual assist to put back in their correct spot. Note: Magnets ended up being too weak to retain the umbilical guide, so these were replaced with M3 screws.
 
 The original rear panel of the Voron would work for the rear panel of the backpack after trimming 22mm of material from the bottom. Well, that was the thought anyway, until the original back panel exploded in my hands and I had to buy a new one! This was attached using a total of 8 typical Voron panel clips to give good rigidity around the entire perimeter. 
 
