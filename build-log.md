@@ -27,7 +27,7 @@ I also installed the "skirt" pieces - aesthetically based on the Voron design la
 
 # 2: Panels and Magnets
 
-I then installed the internal panel standoffs, glued in 10mm magnets, and epoxied matching magnets on to the clear acrylic panel after scuffing up the spots underneath:
+I then installed the internal panel standoffs, glued in 10mm magnets, and epoxied matching magnets on to the clear acrylic panel after scuffing up the spots underneath (note: I would later end up dremelling in holes for screws to rigidly mount the magnets to the acrylic, as the epoxy didn't hold up well over time):
 
 ![image](https://github.com/user-attachments/assets/e4172e2e-670c-4fac-aa60-c7db253dd850)
 
